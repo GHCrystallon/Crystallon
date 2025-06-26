@@ -1,0 +1,62 @@
+# Hugo configuration file
+title: Crystallon
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: About
+      pageRef: /about
+      weight: 1
+    - name: Documentation
+      pageRef: /docs
+      weight: 2
+    - name: Download
+      weight: 3
+      url: "https://www.food4rhino.com/en/app/crystallon"
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/GHCrystallon/Crystallon"
+      params:
+        icon: github
+
+params:
+  description: "Crystallon - Lattice structure tools for Grasshopper3D"
+
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: /favicon.svg
+      dark: /favicon-dark.svg
+      width: 30
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+
+  editURL:
+    enable: true
+    base: "https://github.com/GHCrystallon/Crystallon/edit/docs/content"
+
+enableRobotsTXT: true
