@@ -1,0 +1,7 @@
+.no-border {
+    border: none;
+}
+
+.no-border table, th, td, tr {
+    border: none;
+}
