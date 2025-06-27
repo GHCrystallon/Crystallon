@@ -27,6 +27,9 @@ menu:
     - name: Documentation
       pageRef: /docs
       weight: 2
+    - name: Blog
+      pageRef: /blog
+      weight: 2
     - name: Download
       weight: 3
       url: "https://www.food4rhino.com/en/app/crystallon"
