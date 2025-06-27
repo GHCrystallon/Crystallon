@@ -20,6 +20,5 @@ A crystal fragment dropped into a saturated solution to provide a nucleus around
   {{< card link="about" title="About" icon="user" >}}
   {{< card link="docs" title="Documentation" icon="book-open" >}}
   {{< card link="blog" title="Blog" icon="pencil-alt" >}}
-  {{< card link="https://github.com/GHCrystallon/Crystallon/releases" title="Download (GitHub)" icon="download" >}}
-  {{< card link="https://www.food4rhino.com/en/app/crystallon" title="Download (food4Rhino)" icon="download" >}}
+  {{< card link="download" title="Download" icon="download" >}}
 {{< /cards >}}

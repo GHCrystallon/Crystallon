@@ -32,7 +32,7 @@ menu:
       weight: 2
     - name: Download
       weight: 3
-      url: "https://www.food4rhino.com/en/app/crystallon"
+      pageRef: /download
     - name: Search
       weight: 4
       params:

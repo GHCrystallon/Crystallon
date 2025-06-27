@@ -2,8 +2,6 @@
 title: Voxelize
 tags: [component, voxelize]
 weight: 10
-sidebar:
-  open: false
 ---
 
 This group of tools is for generating and and modifying the set of voxels which will be used to populate with unit cells to create a lattice structure.
