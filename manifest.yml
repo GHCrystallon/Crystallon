@@ -1,0 +1,10 @@
+---
+name: Crystallon
+version: 2.0.0
+authors:
+- Aaron Porterfield
+description: Open Source lattice tools for Grasshoper
+url: https://ghcrystallon.github.io/Crystallon/
+icon: icon.png
+keywords:
+- lattice
