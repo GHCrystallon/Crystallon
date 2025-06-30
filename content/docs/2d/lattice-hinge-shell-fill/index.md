@@ -1,5 +1,5 @@
 ---
-title: "Lattice Hinge Shell Fill (LHS)"
+title: "Lattice Hinge Shell Fill (LHCs)"
 weight: 4
 tags: [component, 2d]
 ---

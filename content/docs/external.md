@@ -3,6 +3,7 @@ title: Dependencies and External tools
 tags: [dependencies, external]
 prev: docs/concepts
 weight: 2
+next: docs/voxelize
 ---
 
 Crystallon was developed to be "open source" by creating each component as open clusters using only native Grasshopper components, though, a few components do require the use of external plugins. Crystallon is also intended to be used in conjuction with other great plugins and software for things like simulation and meshing. To take full advantage of the capabilities of Crystallon, please consider installing the latest versions available of the following plugins and external software:
