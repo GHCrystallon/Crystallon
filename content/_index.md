@@ -21,5 +21,5 @@ A crystal fragment dropped into a saturated solution to provide a nucleus around
   {{< card link="docs" title="Documentation" icon="book-open" >}}
   {{< card link="blog" title="Blog" icon="pencil-alt" >}}
   {{< card link="download" title="Download" icon="download" >}}
-  {{< card link="https://discourse.mcneel.com/c/plug-ins/crystallon/" title="Forum" icon="download" >}}
+  {{< card link="https://discourse.mcneel.com/c/plug-ins/crystallon/" title="Forum" icon="user" >}}
 {{< /cards >}}
