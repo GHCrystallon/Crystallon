@@ -33,6 +33,9 @@ menu:
     - name: Download
       weight: 3
       pageRef: /download
+    - name: Forum
+      weight: 3
+      url: "https://discourse.mcneel.com/c/plug-ins/crystallon/"
     - name: Search
       weight: 4
       params:
