@@ -3,7 +3,7 @@ Crystallon is an open source project for creating lattice structures using Rhino
 
 Download: http://www.food4rhino.com/app/crystallon
 
-Forum: http://www.grasshopper3d.com/group/crystallon
+Forum: https://discourse.mcneel.com/c/plug-ins/crystallon/
 
 Source: https://github.com/fequalsf/Crystallon
 
