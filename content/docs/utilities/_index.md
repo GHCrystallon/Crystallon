@@ -17,4 +17,7 @@ This group of tools is for the organization, import and export of lattice geomet
   {{< card link="inp-c3d6" title="INP C3D6 (C3D6)" icon="c3d6" >}}
   {{< card link="inp-c3d8" title="INP C3D8 (C3D8)" icon="c3d8" >}}
   {{< card link="inp-c3d4" title="INP C3D4 (C3D4)" icon="c3d4" >}}
+  {{< card link="bezier-curve" title="Bezier Curve (BC)" icon="" >}}
+  {{< card link="curve-graph" title="Curve Graph (CG)" icon="" >}}
+  {{< card link="curve-plotter" title="Curve Plotter (CP)" icon="" >}}
 {{< /cards >}}

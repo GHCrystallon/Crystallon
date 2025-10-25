@@ -24,5 +24,6 @@ This group of tools is for generating and and modifying the set of voxels which 
   {{< card link="conformal-rib-parameter" title="Conformal Rib Parameter (CRp)" icon="crp" >}}
   {{< card link="conformal-pipe-distance" title="Conformal Pipe Distance (CPd)" icon="cpd" >}}
   {{< card link="conformal-pipe-parameter" title="Conformal Pipe Parameter (CPp)" icon="cpp" >}}
+  {{< card link="divide-surface" title="Divide Surface (DS)" icon="" >}}
 
 {{< /cards >}}
