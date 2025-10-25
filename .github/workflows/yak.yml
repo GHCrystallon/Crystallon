@@ -1,0 +1,35 @@
+# From: 
+# https://github.com/mcneel/GSA-Grasshopper/blob/master/.github/workflows/yakdeploy.yml
+# This is a basic workflow to help you get started with Actions
+
+name: CD to Yak server
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  release:
+    types: [published]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: windows-latest
+    env:
+      YAK_TOKEN: ${{ secrets.YAK_TOKEN }} 
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          curl https://files.mcneel.com/yak/tools/latest/yak.exe -o yak.exe
+          ./yak build
+          $YAK_FILENAME = dir *.yak 
+          ./yak push $YAK_FILENAME.Name
