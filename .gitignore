@@ -1,0 +1,6 @@
+# Rhino files
+*.yak
+build/
+
+# OS Files
+.DS_Store
