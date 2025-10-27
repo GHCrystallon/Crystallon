@@ -31,7 +31,7 @@ With this release of Crystallon, we're introducing a **Beta** tab for components
 
 The main feature in beta for v2.1 is the set of components for creating a conformal lattice skin. Support those hanging trimmed beams with a conformal net skin that reflects the intrinsic geometry of the unit cell at the boundary of your mesh or Brep input. The methods are based on the paper _Scalable, process-oriented beam lattices: Generation, characterization, and compensation for open cellular structures_, and you can read more here: https://doi.org/10.1016/j.addma.2021.102386. We're excited to what you do with it!
 
-[Download the example file.](/docs/examples/v2.1.0/v2.1.0-Conformal_Skin.gh)
+[Download the example file.](/Crystallon/docs/examples/v2.1.0/v2.1.0-Conformal_Skin.gh)
 
 - Connectivity Selector
 - Connectivity Type

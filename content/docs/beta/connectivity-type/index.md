@@ -6,7 +6,7 @@ tags: [component, populate, v2.1, beta]
 
 ## Description
 
-A collection of pre-made unit cells and their connectivity. This is a derivative of the [Cell Type](/docs/populate/cell-type/) component that includes additional mesh output 
+A collection of pre-made unit cells and their connectivity. This is a derivative of the [Cell Type](/Crystallon/docs/populate/cell-type/) component that includes additional mesh output 
 
 <!-- | | |
 | ---: | :--- |

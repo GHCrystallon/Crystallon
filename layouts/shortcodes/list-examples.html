@@ -3,7 +3,7 @@
     {{- $folder := .Get "folder" | strings.TrimSuffix "/" -}}
     {{- $resources := .Page.Resources.Match (printf "%s/**" $folder) -}}
     {{- range $resources }}
-      {{- $rel := strings.TrimPrefix "/docs/examples" .RelPermalink -}}
+      {{- $rel := strings.TrimPrefix "/Crystallon/docs/examples" .RelPermalink -}}
       <li>
         <a href="{{ .RelPermalink }}">{{ replace $rel "%20" " " }}</a>
       </li>
