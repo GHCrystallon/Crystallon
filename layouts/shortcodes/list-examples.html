@@ -1,0 +1,12 @@
+<div class="file-list">
+  <ul>
+    {{- $folder := .Get "folder" | strings.TrimSuffix "/" -}}
+    {{- $resources := .Page.Resources.Match (printf "%s/**" $folder) -}}
+    {{- range $resources }}
+      {{- $rel := strings.TrimPrefix "/docs/examples" .RelPermalink -}}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ replace $rel "%20" " " }}</a>
+      </li>
+    {{- end }}
+  </ul>
+</div>

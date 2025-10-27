@@ -1,6 +1,6 @@
 ---
-title: v2.1 Release
-date: '2025-10-01'
+title: v2.1.0 Release
+date: '2025-10-25'
 authors: 
     - name: woodwirk
       link: https://github.com/woodwirk
@@ -8,7 +8,7 @@ authors:
 tags: [v2.1, minor, release]
 ---
 
-This minor release (v2.1.0) brings some new features and some unreleased components from the legacy GitHub page. 
+This feature release (v2.1.0) brings some new features and unreleased components from the legacy GitHub page. 
 
 ## What's new
 
@@ -30,6 +30,8 @@ With this release of Crystallon, we're introducing a **Beta** tab for components
 > [@slicelab](https://github.com/slicelab): Tetrahedral and NaCl cells
 
 The main feature in beta for v2.1 is the set of components for creating a conformal lattice skin. Support those hanging trimmed beams with a conformal net skin that reflects the intrinsic geometry of the unit cell at the boundary of your mesh or Brep input. The methods are based on the paper _Scalable, process-oriented beam lattices: Generation, characterization, and compensation for open cellular structures_, and you can read more here: https://doi.org/10.1016/j.addma.2021.102386. We're excited to what you do with it!
+
+[Download the example file.](/docs/examples/v2.1.0/v2.1.0-Conformal_Skin.gh)
 
 - Connectivity Selector
 - Connectivity Type
