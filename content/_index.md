@@ -22,4 +22,6 @@ A crystal fragment dropped into a saturated solution to provide a nucleus around
   {{< card link="blog" title="Blog" icon="pencil-alt" >}}
   {{< card link="download" title="Download" icon="download" >}}
   {{< card link="https://discourse.mcneel.com/c/plug-ins/crystallon/" title="Forum" icon="user" >}}
+  {{< card link="https://www.youtube.com/fequalsf" title="Youtube" icon="user" >}}
+  {{< card link="https://www.patreon.com/c/Crystallon" title="Patreon" icon="user" >}}
 {{< /cards >}}
