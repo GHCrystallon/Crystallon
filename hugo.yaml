@@ -29,25 +29,25 @@ menu:
       weight: 2
     - name: Blog
       pageRef: /blog
-      weight: 2
-    - name: Download
       weight: 3
+    - name: Download
+      weight: 4
       pageRef: /download
     - name: Forum
-      weight: 3
+      weight: 5
       url: "https://discourse.mcneel.com/c/plug-ins/crystallon/"
     - name: Youtube
-      weight: 3
+      weight: 6
       url: "https://www.youtube.com/fequalsf"
     - name: Patreon
-      weight: 3
+      weight: 7
       url: "https://www.patreon.com/c/Crystallon"
     - name: Search
-      weight: 4
+      weight: 8
       params:
         type: search
     - name: GitHub
-      weight: 5
+      weight: 9
       url: "https://github.com/GHCrystallon/Crystallon"
       params:
         icon: github
