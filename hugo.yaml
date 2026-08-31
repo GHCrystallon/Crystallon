@@ -36,6 +36,12 @@ menu:
     - name: Forum
       weight: 3
       url: "https://discourse.mcneel.com/c/plug-ins/crystallon/"
+    - name: Youtube
+      weight: 3
+      url: "https://www.youtube.com/fequalsf"
+    - name: Patreon
+      weight: 3
+      url: "https://www.patreon.com/c/Crystallon"
     - name: Search
       weight: 4
       params:
